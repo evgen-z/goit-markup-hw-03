@@ -88,6 +88,8 @@ a:focus {
 
 .header-cont {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .page-nav {
   display: flex;
@@ -134,14 +136,10 @@ a:focus {
 
 .pg-contact-list {
   display: flex;
-  justify-content: end;
-  align-items: center;
+  
   gap: 40px;
 }
 
-.pg-contacts-item {
-  display: block;
-}
 
 /* ==== /HEADER STYLES ==== */
 
