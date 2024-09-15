@@ -1,5 +1,11 @@
 /* ==== COMMON STYLES ==== */
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -7,7 +13,7 @@ h1, h2, h3, h4, h5, h6, p {
 img {
   display: block;
 }
- .visually-hidden {
+.visually-hidden {
   position: absolute;
   width: 1p;
   height: 1px;
@@ -19,7 +25,7 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
- }
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -93,10 +99,8 @@ a:focus {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #E7E9FC;
+  border-bottom: 1px solid #e7e9fc;
 }
-
-
 
 .page-h-logo {
   font-family: "Raleway", sans-serif;
@@ -154,8 +158,6 @@ a:focus {
   padding-bottom: 188px;
 }
 
-
-
 .hero-header {
   width: 496px;
   text-align: center;
@@ -191,15 +193,12 @@ a:focus {
 
 /* ==== STUDIO STYLES ==== */
 
-
 .studio-list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 24px;
-  
 }
-
 
 .studio-item {
   flex-basis: 264px;
@@ -212,19 +211,9 @@ a:focus {
 
 /* ==== TEAM STYLES ==== */
 
-
 .section-team {
   background-color: #f4f4fd;
 }
-
-/*.team-sect {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 72px; 
-  padding-top: 120px;
-  
-} */
 
 .team-header {
   text-align: center;
@@ -245,7 +234,7 @@ a:focus {
   padding-bottom: 32px;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
-  border: 1px solid #E7E9FC;
+  border: 1px solid #e7e9fc;
 }
 
 .team-item img {
@@ -258,7 +247,6 @@ a:focus {
 /* ==== /TEAM STYLES ==== */
 
 /* ==== PORTFOLIO STYLES ==== */
-
 
 .portf-header {
   text-align: center;
@@ -275,15 +263,13 @@ a:focus {
 }
 
 .portf-item {
-  
   width: calc((100% - 48px) / 3);
 }
 
-
 .port-item-low {
-  border-left: 1px solid #E7E9FC;
-  border-right: 1px solid #E7E9FC;
-  border-bottom: 1px solid #E7E9FC;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
   padding-left: 16px;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -302,7 +288,6 @@ a:focus {
   color: #f4f4fd;
   padding-top: 100px;
   padding-bottom: 100px;
-
 }
 
 .page-f-logo {
