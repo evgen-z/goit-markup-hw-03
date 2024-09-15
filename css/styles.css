@@ -14,7 +14,6 @@ img {
   display: block;
 }
 
-
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -64,20 +63,6 @@ a {
 a:hover,
 a:focus {
   color: #404bbf;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .container {
@@ -205,11 +190,11 @@ a:focus {
 
 /* ==== STUDIO STYLES ==== */
 
-.studio-header {
+.visually-hidden {
   position: absolute;
-  width: 1p;
+  width: 1px;
   height: 1px;
-  max-resolution: -1px;
+  margin: -1px;
   border: 0;
   padding: 0;
 
